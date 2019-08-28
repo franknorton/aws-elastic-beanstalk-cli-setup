@@ -109,7 +109,7 @@ In **PowerShell** or in a **Command Prompt** window:
       pip install virtualenv
       python .\aws-elastic-beanstalk-cli-setup\scripts\ebcli_installer.py
       ```
-    - If you encounter an error with the message "The term 'C:\....' is not recognized as the name of a cmdlet, function, script file, or operable program it may be because the path to the repository contained a space. Try removing any spaces from folders in the path and rerunnning `.\aws-elastic-beanstalk-cli-setup\scripts\bundled_installer`
+    - If you encounter an error with the message "The term 'PATH TO REPOSITORY' is not recognized as the name of a cmdlet, function, script file, or operable program" it may be because the path to the repository contains a space. Try removing any spaces from folders in the path and rerunnning `.\aws-elastic-beanstalk-cli-setup\scripts\bundled_installer`
 
 #### 2.4. After installation
 
